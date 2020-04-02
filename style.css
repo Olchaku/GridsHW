@@ -1,0 +1,106 @@
+body {
+    background-color:#EFF0F3;
+}
+.main_container {
+    display: grid;
+    max-width: 1140px;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 33%;
+    grid-column-gap: 32px;
+    grid-row-gap: 30px;
+    
+}
+.full-card-first, .full-card-second, .full-card-third {
+    display: grid;
+    max-width: 888px;
+    grid-template-columns:1fr 3fr 1fr;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: white;
+}
+.full-card_img {
+    width: 100%;
+}
+.full-card__text {
+    padding-right: 80px;
+    padding-left: 32px;
+}
+.full-card__header {
+    font-size: 22px;
+    color: #081F32;
+    font-family: 'DM Serif Display', serif;
+}
+.full-card__main-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+
+}
+.full-card__author {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #A5ADBB;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.mini-card-first {
+    background: linear-gradient( #FFB199,#FF6188);
+    padding: 24px 16px;
+    border-radius: 16px;  
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    ".   button";
+}
+.mini-card-second {
+    background: linear-gradient(#04BEFE,#4481EB);
+    padding: 24px 16px;
+    border-radius: 16px; 
+    display: grid;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    ".   button"; 
+}
+.mini-card-third {
+    background: linear-gradient(#D6FF94,
+    #3DC24B);
+    padding: 24px 16px;
+    border-radius: 16px;  
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    ".   button";
+}
+.mini-card__text {
+    color: white;
+    font-size: 26px;
+    vertical-align: top;
+    grid-area: header;
+    align-self: center;
+}
+
+.mini-card__button {
+        width: 101px;
+        height: 37px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+        grid-area: button;
+        align-self: end;
+    } 
+.list {
+    list-style-type: none;
+    vertical-align: center;
+}
+.sublists {
+    padding-bottom: 28px;
+    vertical-align: top;
+
+}
+.listimg {
+    padding-right: 16px;
+    
+}
+.boldtext {
+    font-weight: bold;
+}
